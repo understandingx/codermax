@@ -1,0 +1,23 @@
+{
+  "product": "CoderMax",
+  "command": "codermax",
+  "version": "0.2.0",
+  "buildId": "f354aaa536c8b1c8",
+  "builtAt": "2026-09-06T09:06:08.567Z",
+  "nodeBase": "node22",
+  "os": "win",
+  "folder": "Windows",
+  "files": [
+    {
+      "name": "codermax-win-x64.exe",
+      "arch": "x64",
+      "target": "node22-win-x64",
+      "bytes": 60670088,
+      "sha256": "78d789e6841b7cf6dd6b375ed8e804fe7e224e2f636df58800737b939973e2c2",
+      "archive": "codermax-win-x64.zip",
+      "archiveSha256": "d7279fff6ea2127db8496185d2f99194c5f15bdc91ceb0112c14c5db058c1d09",
+      "archiveBytes": 23010227,
+      "validatedOnThisMachine": false
+    }
+  ]
+}

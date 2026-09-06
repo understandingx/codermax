@@ -1,0 +1,80 @@
+{
+  "product": "CoderMax",
+  "command": "codermax",
+  "version": "0.2.0",
+  "buildId": "f354aaa536c8b1c8",
+  "builtAt": "2026-09-06T09:06:08.567Z",
+  "nodeBase": "node22",
+  "os": "macos",
+  "folder": "macOs",
+  "signing": {
+    "signing": "developer-id",
+    "identifier": "com.codermax.cli",
+    "teamId": "M77YWH966R",
+    "authority": "Developer ID Application: SmartRobot PTY LTD (M77YWH966R)",
+    "hardenedRuntime": true,
+    "timestamped": true,
+    "notarized": true,
+    "stapled": false,
+    "binarySha256": "39a511a22855ad314c0c76bca2ea105a7c91bfccd3ca301f64c4584b35ba7902",
+    "cdhashes": [
+      {
+        "arch": "arm64",
+        "cdhash": "841f7d53e049fa72a4916947460ef0ff8a3d04d4"
+      },
+      {
+        "arch": "x86_64",
+        "cdhash": "5a7dfad0fc27f5c122b4fb843efa263068c99edd"
+      }
+    ],
+    "gatekeeper": {
+      "assessment": "spctl --assess --type execute",
+      "accepted": false,
+      "source": null,
+      "origin": "Developer ID Application: SmartRobot PTY LTD (M77YWH966R)",
+      "notAnApp": true,
+      "informationalOnly": true,
+      "note": "the assessment type for an application bundle; a bare executable can never pass it"
+    },
+    "gatekeeperDownload": {
+      "assessment": "spctl --assess --type open --context context:primary-signature",
+      "accepted": true,
+      "source": "Notarized Developer ID",
+      "origin": "Developer ID Application: SmartRobot PTY LTD (M77YWH966R)",
+      "quarantined": false,
+      "note": "recorded with a short retry; this verdict lags Apple's Accepted by minutes and never gates the build"
+    },
+    "gatekeeperQuarantined": {
+      "assessment": "spctl --assess --type open --context context:primary-signature, on a quarantined copy",
+      "accepted": true,
+      "source": "Notarized Developer ID",
+      "origin": "Developer ID Application: SmartRobot PTY LTD (M77YWH966R)",
+      "quarantined": true,
+      "ranExitCode": 0,
+      "ranOutput": "codermax 0.2.0",
+      "waitedSeconds": 3
+    },
+    "cdhashGate": {
+      "check": "every slice CDHash on disk is in the notarisation ticket, and the reverse",
+      "passed": true,
+      "requestId": "7eafbcba-24ab-4c48-95c2-c36458e1704c",
+      "archiveSha256": "6101d3dbd225801224f488dfc194eab90d4fcec83b05ff681a2d29f51af26566"
+    },
+    "notaryRequestId": "7eafbcba-24ab-4c48-95c2-c36458e1704c",
+    "notaryStatus": "Accepted",
+    "notarizedAt": "2026-09-06T09:09:06.352Z"
+  },
+  "files": [
+    {
+      "name": "codermax-macos-universal",
+      "arch": "universal",
+      "target": "node22-macos-x64 + node22-macos-arm64",
+      "bytes": 130235328,
+      "sha256": "39a511a22855ad314c0c76bca2ea105a7c91bfccd3ca301f64c4584b35ba7902",
+      "archive": "codermax-macos-universal.zip",
+      "archiveSha256": "75b2ba4e164e839d77a4d1d33a504d891f865db2cf7418e0a8aa12297a44fa01",
+      "archiveBytes": 48006121,
+      "validatedOnThisMachine": true
+    }
+  ]
+}

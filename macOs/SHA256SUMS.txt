@@ -1,0 +1,2 @@
+75b2ba4e164e839d77a4d1d33a504d891f865db2cf7418e0a8aa12297a44fa01  codermax-macos-universal.zip
+39a511a22855ad314c0c76bca2ea105a7c91bfccd3ca301f64c4584b35ba7902  codermax-macos-universal

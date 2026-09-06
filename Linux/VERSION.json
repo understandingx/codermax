@@ -1,0 +1,34 @@
+{
+  "product": "CoderMax",
+  "command": "codermax",
+  "version": "0.2.0",
+  "buildId": "f354aaa536c8b1c8",
+  "builtAt": "2026-09-06T09:06:08.567Z",
+  "nodeBase": "node22",
+  "os": "linux",
+  "folder": "Linux",
+  "files": [
+    {
+      "name": "codermax-linux-x64",
+      "arch": "x64",
+      "target": "node22-linux-x64",
+      "bytes": 77439557,
+      "sha256": "a78460635e8af8d1dc1b8f38f94b727151a0491799dd71d3e4f6650494ed9c24",
+      "archive": "codermax-linux-x64.tar.gz",
+      "archiveSha256": "a7b00afadec29f2f922d455f80d64ab76fe5520a5581bdffa9bda57a26a4739f",
+      "archiveBytes": 28726662,
+      "validatedOnThisMachine": false
+    },
+    {
+      "name": "codermax-linux-arm64",
+      "arch": "arm64",
+      "target": "node22-linux-arm64",
+      "bytes": 72118525,
+      "sha256": "69795dad58eed58d771f42117be0a6a0742cfe0552836b38068c1ae6ff4220a9",
+      "archive": "codermax-linux-arm64.tar.gz",
+      "archiveSha256": "5980b4b83fb142ae72beb69429c6c8dd271729ad09a0f1494f79147836e42420",
+      "archiveBytes": 28210744,
+      "validatedOnThisMachine": false
+    }
+  ]
+}
